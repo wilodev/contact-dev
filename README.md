@@ -21,4 +21,4 @@ Este proyecto se basa en **NextJS** para la conexión al api de **bkbnchallenge*
 
 ### Proyecto en Producción
 
-1. URL [Next.js Server](https://) Abrir esta url en tu navegador de preferencia.
+1. URL [Next.js Server](https://contact-dev.vercel.app/) Abrir esta url en tu navegador de preferencia.
