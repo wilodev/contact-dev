@@ -1,7 +1,7 @@
 import { createSlice, createAsyncThunk } from "@reduxjs/toolkit";
 import { HttpPut } from "../utils/Http";
 
-const initialState = {
+const initialState: InitialState = {
   users: [],
   count: 0,
   perPage: 0,
@@ -60,7 +60,8 @@ export const usersSlice = createSlice({
       state.totalPages = action.payload.totalPages;
     },
     setUser: (state, action) => {
-      state.users.push(action.payload);
+      const userData: UserProps = action.payload;
+      state.users.push(userData);
     },
     setError: (state, action) => {
       state.error = action.payload;

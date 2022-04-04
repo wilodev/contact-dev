@@ -26,3 +26,13 @@ type ResponseCreate = {
   status: number;
   results: object | UserProps;
 };
+
+type InitialState = {
+  users: UsersProps[];
+  count: number;
+  perPage: number;
+  currentPage: number;
+  totalPages: number;
+  error: string;
+  loading: boolean;
+};
